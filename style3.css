@@ -1,0 +1,17 @@
+.mainBox {
+    width: 100%;
+    background:aqua
+}
+.box {
+    width: 400px;
+    height: 200px;
+}
+.boxRed {
+background-color: red;
+}
+.boxGreen {
+    background-color: green;
+}
+.boxBlue {
+    background-color: blue;
+}
