@@ -2,16 +2,16 @@
     width: 100%;
     background:aqua
 }
-.box {
+.mainBox .box {
     width: 400px;
     height: 200px;
 }
-.boxRed {
-background-color: red;
+.mainBox .boxRed {
+    background-color: red;
 }
-.boxGreen {
+.mainBox .boxGreen {
     background-color: green;
 }
-.boxBlue {
+.mainBox .boxBlue {
     background-color: blue;
 }
