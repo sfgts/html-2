@@ -6,9 +6,54 @@
     <title>Document</title>
 </head>
 <body>
-    <h1><b>Регестрация</b></h1>
-    <form> 
+    <h1><b>Регистрация</b></h1>
+    <form name="sigup" action="#" method="post"> 
+         <div>
+            <label>Login</label>
+            <input placeholder="login" type="text" name="username"/>
+         </div>
          
+         <div>
+            <label>Email</label>
+            <input placeholder="email"  type="email" name="email"/>
+         </div>
+
+         <div>
+            <label>Password</label>
+            <input placeholder="password" type="password" name="password"/>
+         </div>
+        
+         <div>
+            <label>Male or Female:</label>
+            <input type="radio" name="sex" value="0"/>Man
+            <input type="radio" name="sex" value="1"/>Woman
+        </div>
+         <div>
+            <label>I know about rules:</label>
+            <input type="checkbox" name="rules" />
+        </div>
+         <div>
+            <label>Upload your photo:</label>
+            <input type="file" name="avatar" />
+        </div>
+         <div>
+            <label>Year:</label>
+            <select name="year">
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+                <option value="2005">2005</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+                <option value="2008">2008</option>
+            </select>
+        </div>
+        <div>
+            <textarea placeholder="write here"></textarea>
+        </div>
+            <input type="submit" name="signup" value="Go!" />
     </form>
 </body>
 </html>
