@@ -1,7 +1,12 @@
-div{
-    background-color: aqua;
-    height: 200px;
-    width: 400px;
+.button-1 {
+    border-radius: 50px;
+    --smooth-corner: 5;
+    background: linear-gradient(deeppink, black, red,blue);
+    height: 120px;
+    width: 120px;
+    border-color: linear-gradient (deeppink, black, red);
+    text-size-adjust: 25px;
+   
 }
 div p{
     color: red;
