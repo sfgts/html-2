@@ -1,3 +1,21 @@
-input[type="text"]{
-    height: 50px;
+p[data-text="red"]{
+    font-size: 25px;
+    color: red;
+}
+p[data-text="green"]{
+    font-style: oblique;
+    font-size: 25px;
+    color: green;
+}
+button[data-text="5slide"]{
+    background-color:color-mix(in hsl shorter hue, red 33%, green 33%);
+    
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+
+}
+a{
+    color: rgb(255, 196, 0);
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(0, 255, 13), 0 0 0.2em rgb(0, 112, 216);
 }
